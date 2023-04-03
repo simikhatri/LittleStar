@@ -1,0 +1,70 @@
+.Back-Contact {
+    background-color: #6b271e;
+    /* font-size: 21px;
+    border: 2px solid rgb(31, 61, 51);
+    box-shadow: rgba(13, 8, 62, 0.35) 0px 5px 15px;
+     padding: 50px; 
+     color: rgb(31, 61, 51); */
+}
+
+.Contact-content {
+    padding: 30px;
+    background-color: #f7f4ec;
+
+}
+
+.Contact-Heading {
+    color: #51170f;
+}
+
+.input-field {
+    margin: 20px;
+}
+
+.Contact-form {
+    padding: 30px;
+}
+
+.form-label {
+    font-size: 19px;
+    padding-left: 4px;
+}
+
+@media only screen and (min-width:300px) and (max-width:991px) {
+    .Contact-fields {
+        flex-direction: column;
+    }
+
+    .Contact-Heading {
+        font-size: 35px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .Contact-content {
+        padding: 10px;
+    }
+
+    .Contact-form {
+        padding: 15px;
+    }
+
+    .Cont-para {
+        width: 200px;
+        font-size: 15px;
+        text-align: left;
+
+    }
+
+    .form-label {
+        width: 200px;
+        text-align: left;
+    }
+    .Contact-Button{
+        width: 200px;
+    }
+
+
+}

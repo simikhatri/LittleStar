@@ -1,0 +1,44 @@
+.Back-Booking{
+    /* max-width: 80%;  */
+    background-image: url("https://www.wallpaperflare.com/static/935/259/744/restaurant-table-interior-modern-wallpaper.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-size: 21px;
+    border: 2px solid rgb(31, 61, 51);
+    box-shadow: rgba(13, 8, 62, 0.35) 0px 5px 15px;
+     padding: 50px; 
+     color: rgb(31, 61, 51); */
+}
+.Booking-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f2de;
+}
+.Booking-Heading{
+    color: #51170f;
+}
+.reservation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    width: 100%;
+}
+.item-input{
+    padding: 10px;
+}
+.Booktable{
+    color:rgb(31, 61, 51);
+    border-bottom: 2px solid rgb(234, 234, 24);
+}
+input[type="submit"]{
+    background-color:  rgb(234, 234, 24);
+    color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}

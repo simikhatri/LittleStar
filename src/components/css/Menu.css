@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins, serif';
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.carousel-item img {
+    height: 480px;
+    filter: brightness(40%);
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 500;
+     /* border-bottom: 2px solid  #51170f; */
+}
+
+.Menu-heading {
+    color:  #51170f;
+}
+
+.container{
+    text-align: center;
+    padding: 30px;
+}
+
+.section-title {
+    margin-bottom: 80px;
+}
+
+.section-title h1::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background-color:  #51170f;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-title h1 {
+    position: relative;
+    display: inline-block;
+}
+.menus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.single-menu img{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 1px dashed rgb(248, 247, 244);
+    padding: 1px;
+    margin-right: 10px;
+    transition: .3s;
+
+}
+.single-menu:hover img{
+    transform: rotate(180deg);
+
+}
+.menus-column{
+    width: 30%;
+}
+.single-menu{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.single-menu .menu-content h5{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 550;
+    color:  #51170f;
+    border-bottom: 1px dashed rgb(191, 17, 17);
+    margin-bottom: 10px;
+}
+.single-menu .menu-content h5 span{
+    color: tomato;
+    float: right;
+    font-style: italic;
+}
+.menu-content{
+    text-align: left;
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .container{
+        width: 970px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .container{
+        width: 750px;
+    }
+    .single-menu{
+        flex-direction: column;
+    }
+    .single-menu img{
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .container{
+        width: 320px;
+    }
+    .menus-column{
+        width: 100%;
+    }
+    .single-menu{
+        flex-direction: column;
+        font-size: 18px;
+    }
+    .single-menu img{
+        margin-bottom: 25px;
+    }
+}
